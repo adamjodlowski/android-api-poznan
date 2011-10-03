@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<com.google.android.maps.MapView
+		android:id="@+id/map"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:clickable="true"
+		android:apiKey="0KgLTTGxasJvY9n9Bm8LvS4fOBuWwywgJh0Orqg" />
+		
+		<!-- nie zapomnij o podaniu własnego klucza! -->
+		
+	<TextView
+		android:layout_width="wrap_content"
+		android:text="Pobieranie"
+		android:id="@+id/update_text"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="36dp"
+		android:visibility="invisible"
+		android:background="#AA000000"
+		android:padding="5dp"></TextView>
+
+</RelativeLayout>
